@@ -1,4 +1,4 @@
-Watch the presentation at oskarlipienski.com
+Watch the presentation at https://oskarlipienski.netlify.app
 
 
 The original development environment:
