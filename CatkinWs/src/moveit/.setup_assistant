@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: project_demo
+    relative_path: worlds/robot.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/hexa_bot.srdf
+  CONFIG:
+    author_name: osl1
+    author_email: osl1@aber.ac.uk
+    generated_timestamp: 1585581742

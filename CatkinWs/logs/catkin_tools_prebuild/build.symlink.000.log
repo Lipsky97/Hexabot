@@ -1,0 +1,12 @@
+Symlinking /home/lipsky/MyDsk/plug/devel/./local_setup.zsh
+Symlinking /home/lipsky/MyDsk/plug/devel/./setup.bash
+Symlinking /home/lipsky/MyDsk/plug/devel/./local_setup.sh
+Symlinking /home/lipsky/MyDsk/plug/devel/./env.sh
+Symlinking /home/lipsky/MyDsk/plug/devel/./setup.sh
+Symlinking /home/lipsky/MyDsk/plug/devel/./cmake.lock
+Symlinking /home/lipsky/MyDsk/plug/devel/./_setup_util.py
+Symlinking /home/lipsky/MyDsk/plug/devel/./local_setup.bash
+Symlinking /home/lipsky/MyDsk/plug/devel/./setup.zsh
+Symlinking /home/lipsky/MyDsk/plug/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
+Symlinking /home/lipsky/MyDsk/plug/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/lipsky/MyDsk/plug/devel/lib/pkgconfig/catkin_tools_prebuild.pc

@@ -1,0 +1,11 @@
+[ 47%] Built target generate_ros_code
+[35m[1mScanning dependencies of target simExtROSInterface[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/simExtROSInterface.dir/src/sim_ros_interface.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/simExtROSInterface.dir/home/lipsky/MyDsk/CoppeliaSim_Edu_V4_0_0_Ubuntu18_04/programming/libPlugin/simPlusPlus/Plugin.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/simExtROSInterface.dir/home/lipsky/MyDsk/CoppeliaSim_Edu_V4_0_0_Ubuntu18_04/programming/common/simLib.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/simExtROSInterface.dir/src/ros_msg_builtin_io.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/simExtROSInterface.dir/generated/stubs.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/simExtROSInterface.dir/generated/ros_msg_io.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/simExtROSInterface.dir/generated/ros_srv_io.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library /home/lipsky/MyDsk/plug/devel/.private/sim_ros_interface/lib/libsimExtROSInterface.so[0m
+[100%] Built target simExtROSInterface

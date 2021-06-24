@@ -1,0 +1,1 @@
+/home/lipsky/MyDsk/plug/devel/.private/project_demo/share/gennodejs/ros/project_demo/_index.js

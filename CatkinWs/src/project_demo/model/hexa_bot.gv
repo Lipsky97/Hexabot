@@ -1,0 +1,59 @@
+digraph G {
+node [shape=box];
+"body" [label="body"];
+"tigh" [label="tigh"];
+"knee" [label="knee"];
+"foot" [label="foot"];
+"tigh0" [label="tigh0"];
+"knee0" [label="knee0"];
+"foot0" [label="foot0"];
+"tigh1" [label="tigh1"];
+"knee1" [label="knee1"];
+"foot1" [label="foot1"];
+"tigh2" [label="tigh2"];
+"knee2" [label="knee2"];
+"foot2" [label="foot2"];
+"tigh3" [label="tigh3"];
+"knee3" [label="knee3"];
+"foot3" [label="foot3"];
+"tigh4" [label="tigh4"];
+"knee4" [label="knee4"];
+"foot4" [label="foot4"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+"body" -> "tigh_joint" [label="xyz: -0.005693 0.05142 -0.060359 \nrpy: 0 -0 1.57"]
+"tigh_joint" -> "tigh"
+"tigh" -> "knee_joint" [label="xyz: -0.0087799 -0.042 -0.01 \nrpy: 0 0.785 0"]
+"knee_joint" -> "knee"
+"knee" -> "foot_joint" [label="xyz: -0.04998 -0.0035666 -0.0017997 \nrpy: 0 -0 1.57"]
+"foot_joint" -> "foot"
+"body" -> "tigh_joint0" [label="xyz: -0.0037321 0.052092 0.0096101 \nrpy: 0 -0 1.57"]
+"tigh_joint0" -> "tigh0"
+"tigh0" -> "knee_joint0" [label="xyz: 0.045067 -0.021902 0.0017996 \nrpy: 0 -0 0.785"]
+"knee_joint0" -> "knee0"
+"knee0" -> "foot_joint0" [label="xyz: -0.018379 -0.086056 0.011929 \nrpy: 0 -0 1.57"]
+"foot_joint0" -> "foot0"
+"body" -> "tigh_joint1" [label="xyz: -0.0015743 0.051832 0.086586 \nrpy: 0 -0 1.57"]
+"tigh_joint1" -> "tigh1"
+"tigh1" -> "knee_joint1" [label="xyz: -0.00878 -0.042 -0.01 \nrpy: 0 -0 0.785"]
+"knee_joint1" -> "knee1"
+"knee1" -> "foot_joint1" [label="xyz: -0.04998 -0.0035666 -0.0017997 \nrpy: 0 -0 1.57"]
+"foot_joint1" -> "foot1"
+"body" -> "tigh_joint2" [label="xyz: -0.0036573 -0.051903 0.010607 \nrpy: 0 0 -1.57"]
+"tigh_joint2" -> "tigh2"
+"tigh2" -> "knee_joint2" [label="xyz: -0.00878 -0.042 -0.01 \nrpy: 0 0 -0.785"]
+"knee_joint2" -> "knee2"
+"knee2" -> "foot_joint2" [label="xyz: -0.04998 -0.0035666 -0.0017997 \nrpy: 0 0 -1.57"]
+"foot_joint2" -> "foot2"
+"body" -> "tigh_joint3" [label="xyz: -0.04998 -0.0035666 -0.0017997 \nrpy: 0 0 -1.57"]
+"tigh_joint3" -> "tigh3"
+"tigh3" -> "knee_joint3" [label="xyz: -0.00878 -0.042 -0.01 \nrpy: 0 0 -0.785"]
+"knee_joint3" -> "knee3"
+"knee3" -> "foot_joint3" [label="xyz: -0.04998 -0.0035666 -0.0017997 \nrpy: 0 0 -1.57"]
+"foot_joint3" -> "foot3"
+"body" -> "tigh_joint4" [label="xyz: -0.0014988 -0.053163 0.087593 \nrpy: 0 0 -1.57"]
+"tigh_joint4" -> "tigh4"
+"tigh4" -> "knee_joint4" [label="xyz: -0.00878 -0.042 -0.01 \nrpy: 0 0 -0.785"]
+"knee_joint4" -> "knee4"
+"knee4" -> "foot_joint4" [label="xyz: -0.04998 -0.0035666 -0.0017997 \nrpy: 0 0 -1.57"]
+"foot_joint4" -> "foot4"
+}

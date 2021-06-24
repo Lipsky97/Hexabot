@@ -1,0 +1,1 @@
+/home/lipsky/MyDsk/plug/devel/.private/project_demo/share/common-lisp/ros/project_demo/msg/project_demo-msg.asd

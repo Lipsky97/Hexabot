@@ -1,0 +1,1 @@
+/home/lipsky/MyDsk/plug/devel/.private/project_demo/lib/python2.7/dist-packages/project_demo/__init__.py

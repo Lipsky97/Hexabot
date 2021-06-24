@@ -1,0 +1,5 @@
+error: program "xsltproc" is missing (hint: try "sudo apt install xsltproc")
+make[2]: *** [generated/stubs.cpp] Error 1
+make[2]: *** Deleting file 'generated/stubs.cpp'
+make[1]: *** [CMakeFiles/simExtROSInterface.dir/all] Error 2
+make: *** [all] Error 2

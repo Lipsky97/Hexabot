@@ -1,0 +1,22 @@
+In file included from [01m[K/home/lipsky/MyDsk/plug/src/sim_ros_interface/include/sim_ros_interface.h:76:0[m[K,
+                 from [01m[K/home/lipsky/MyDsk/plug/src/sim_ros_interface/src/sim_ros_interface.cpp:1[m[K:
+[01m[K/home/lipsky/MyDsk/plug/build/sim_ros_interface/generated/ros_msg_io.h:96:10:[m[K [01;31m[Kfatal error: [m[Kproject_demo/Leg.h: No such file or directory
+ #include [01;31m[K<project_demo/Leg.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/lipsky/MyDsk/plug/build/sim_ros_interface/generated/ros_srv_io.cpp:1:0[m[K:
+[01m[K/home/lipsky/MyDsk/plug/build/sim_ros_interface/generated/ros_msg_io.h:96:10:[m[K [01;31m[Kfatal error: [m[Kproject_demo/Leg.h: No such file or directory
+ #include [01;31m[K<project_demo/Leg.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/lipsky/MyDsk/plug/build/sim_ros_interface/generated/ros_msg_io.cpp:1:0[m[K:
+[01m[K/home/lipsky/MyDsk/plug/build/sim_ros_interface/generated/ros_msg_io.h:96:10:[m[K [01;31m[Kfatal error: [m[Kproject_demo/Leg.h: No such file or directory
+ #include [01;31m[K<project_demo/Leg.h>[m[K
+          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/simExtROSInterface.dir/src/sim_ros_interface.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/simExtROSInterface.dir/generated/ros_srv_io.cpp.o] Error 1
+make[2]: *** [CMakeFiles/simExtROSInterface.dir/generated/ros_msg_io.cpp.o] Error 1
+make[1]: *** [CMakeFiles/simExtROSInterface.dir/all] Error 2
+make: *** [all] Error 2

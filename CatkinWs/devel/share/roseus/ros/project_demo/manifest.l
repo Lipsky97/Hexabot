@@ -1,0 +1,1 @@
+/home/lipsky/MyDsk/plug/devel/.private/project_demo/share/roseus/ros/project_demo/manifest.l

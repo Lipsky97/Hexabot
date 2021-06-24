@@ -1,0 +1,1 @@
+/home/lipsky/MyDsk/plug/devel/.private/moveit/share/moveit/cmake/moveitConfig-version.cmake

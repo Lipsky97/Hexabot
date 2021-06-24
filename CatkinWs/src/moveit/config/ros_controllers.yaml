@@ -1,0 +1,232 @@
+# MoveIt-specific simulation settings
+moveit_sim_hw_interface:
+  joint_model_group: controllers_initial_group_
+  joint_model_group_pose: controllers_initial_pose_
+# Settings for ros_control control loop
+generic_hw_control_loop:
+  loop_hz: 300
+  cycle_time_error_threshold: 0.01
+# Settings for ros_control hardware interface
+hardware_interface:
+  joints:
+    - base
+    - tigh_joint
+    - knee_joint
+    - foot_joint
+    - tigh_joint0
+    - knee_joint0
+    - foot_joint0
+    - tigh_joint1
+    - knee_joint1
+    - foot_joint1
+    - tigh_joint2
+    - knee_joint2
+    - foot_joint2
+    - tigh_joint3
+    - knee_joint3
+    - foot_joint3
+    - tigh_joint4
+    - knee_joint4
+    - foot_joint4
+  sim_control_mode: 1  # 0: position, 1: velocity
+# Publish all joint states
+# Creates the /joint_states topic necessary in ROS
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+controller_list:
+  - name: frontLeftLeg_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - tigh_joint
+      - knee_joint
+      - foot_joint
+  - name: frontRightLeg_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - tigh_joint2
+      - knee_joint2
+      - foot_joint2
+  - name: middleLeftLeg_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - tigh_joint0
+      - knee_joint0
+      - foot_joint0
+  - name: middleRightLeg_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - tigh_joint3
+      - knee_joint3
+      - foot_joint3
+  - name: backLeftLeg_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - tigh_joint1
+      - knee_joint1
+      - foot_joint1
+  - name: backRightLeg_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - tigh_joint4
+      - knee_joint4
+      - foot_joint4
+  - name: allLegs_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - tigh_joint
+      - knee_joint
+      - foot_joint
+      - tigh_joint0
+      - knee_joint0
+      - foot_joint0
+      - tigh_joint1
+      - knee_joint1
+      - foot_joint1
+      - tigh_joint2
+      - knee_joint2
+      - foot_joint2
+      - tigh_joint3
+      - knee_joint3
+      - foot_joint3
+      - tigh_joint4
+      - knee_joint4
+      - foot_joint4
+  - name: pan_controller
+    action_ns: follow_joint_trajectory
+    default: True
+    type: FollowJointTrajectory
+    joints:
+      - base
+      - tigh_joint
+      - tigh_joint0
+      - tigh_joint1
+      - tigh_joint2
+      - tigh_joint3
+      - tigh_joint4
+legs_position_controller:
+  type: position_controllers/JointPositionController
+  joints:
+    - tigh_joint
+    - knee_joint
+    - foot_joint
+    - tigh_joint0
+    - knee_joint0
+    - foot_joint0
+    - tigh_joint1
+    - knee_joint1
+    - foot_joint1
+    - tigh_joint2
+    - knee_joint2
+    - foot_joint2
+    - tigh_joint3
+    - knee_joint3
+    - foot_joint3
+    - tigh_joint4
+    - knee_joint4
+    - foot_joint4
+  gains:
+    tigh_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    knee_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    foot_joint:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    tigh_joint0:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    knee_joint0:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    foot_joint0:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    tigh_joint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    knee_joint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    foot_joint1:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    tigh_joint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    knee_joint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    foot_joint2:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    tigh_joint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    knee_joint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    foot_joint3:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    tigh_joint4:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    knee_joint4:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    foot_joint4:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

@@ -1,0 +1,60 @@
+controller_list:
+  - name: fake_frontLeftLeg_controller
+    joints:
+      - tigh_joint
+      - knee_joint
+      - foot_joint
+  - name: fake_frontRightLeg_controller
+    joints:
+      - tigh_joint2
+      - knee_joint2
+      - foot_joint2
+  - name: fake_middleLeftLeg_controller
+    joints:
+      - tigh_joint0
+      - knee_joint0
+      - foot_joint0
+  - name: fake_middleRightLeg_controller
+    joints:
+      - tigh_joint3
+      - knee_joint3
+      - foot_joint3
+  - name: fake_backLeftLeg_controller
+    joints:
+      - tigh_joint1
+      - knee_joint1
+      - foot_joint1
+  - name: fake_backRightLeg_controller
+    joints:
+      - tigh_joint4
+      - knee_joint4
+      - foot_joint4
+  - name: fake_allLegs_controller
+    joints:
+      - tigh_joint
+      - knee_joint
+      - foot_joint
+      - tigh_joint0
+      - knee_joint0
+      - foot_joint0
+      - tigh_joint1
+      - knee_joint1
+      - foot_joint1
+      - tigh_joint2
+      - knee_joint2
+      - foot_joint2
+      - tigh_joint3
+      - knee_joint3
+      - foot_joint3
+      - tigh_joint4
+      - knee_joint4
+      - foot_joint4
+  - name: fake_pan_controller
+    joints:
+      - base
+      - tigh_joint
+      - tigh_joint0
+      - tigh_joint1
+      - tigh_joint2
+      - tigh_joint3
+      - tigh_joint4

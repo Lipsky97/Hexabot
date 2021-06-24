@@ -1,0 +1,6 @@
+devel_space: /home/lipsky/MyDsk/plug/devel
+install: false
+install_space: /home/lipsky/MyDsk/plug/install
+profile: default
+source_space: /home/lipsky/MyDsk/plug/src
+workspace: /home/lipsky/MyDsk/plug

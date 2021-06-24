@@ -1,0 +1,5 @@
+[31m[1mCMake Error[0m at /home/lipsky/MyDsk/plug/src/project_demo/CMakeLists.txt:209:
+  Parse error.  Function missing ending ")".  End of file reached.
+
+
+make: *** [cmake_check_build_system] Error 1

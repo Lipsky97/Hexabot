@@ -1,0 +1,1 @@
+/home/lipsky/MyDsk/plug/devel/.private/project_demo/share/project_demo/cmake/project_demo-msg-extras.cmake

@@ -1,0 +1,21 @@
+dimentions
+real x = 22.5cm
+real y = 33 cm 
+
+speed/m = 0.016m/s
+speed/0.5m = 0.017m/s
+
+step length
+x = 0.037m
+y = -0.097m
+
+x = -0.042m
+y = -0.086m
+
+x = 0.037+0.042=0.079
+y = 0.097-0.086=0.011
+
+v = 0.079+0.011=0.09m
+t = 5s
+
+steps/0.5m = 6

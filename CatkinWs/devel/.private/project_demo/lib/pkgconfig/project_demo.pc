@@ -1,0 +1,8 @@
+prefix=/home/lipsky/MyDsk/plug/devel/.private/project_demo
+
+Name: project_demo
+Description: Description of project_demo
+Version: 0.0.0
+Cflags: -I/home/lipsky/MyDsk/plug/devel/.private/project_demo/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs roscpp rospy std_msgs message_runtime
