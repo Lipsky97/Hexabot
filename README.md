@@ -1,3 +1,6 @@
+Watch the presentation at oskarlipienski.com
+
+
 The original development environment:
 OS: Pop!_OS 18.04 LTS based on Ubuntu 18.04
 Simulation software: CoppeliaSim Edu V4.0.0 rev4
